@@ -1,7 +1,7 @@
 <h1 align="center">Hey, I'm Jose 👋</h1>
 
 <p align="center">
-  Systems Engineering Student &nbsp;·&nbsp; Backend & DevOps Developer &nbsp;·&nbsp; Building things that actually matter
+  Systems Engineering Student &nbsp;·&nbsp; Fullstack & DevOps Developer &nbsp;·&nbsp; Always curious, always learning
 </p>
 
 <p align="center">
@@ -14,11 +14,11 @@
 
 ## About Me
 
-I'm a 7th-semester Systems Engineering student at **Escuela Colombiana de Ingeniería Julio Garavito**. I build backend systems and CI/CD pipelines — not just to ship features, but to understand whether what I'm building genuinely helps people.
+I'm a 7th-semester Systems Engineering student at **Escuela Colombiana de Ingeniería Julio Garavito**. I like building backend systems and CI/CD pipelines that actually hold up in production, not just code that looks good in a demo.
 
-My biggest hands-on experience has been **AIBERT**, where I owned the full lifecycle of a microservice in a real production system: domain design, REST API contracts, automated pipelines, and cloud deployment on Azure. That gap between *"it works on my machine"* and *"it works in production"* taught me more than any classroom ever could.
+The project that's taught me the most is **AIBERT**, where I owned the full lifecycle of a microservice in a real production system: domain design, REST API contracts, automated pipelines and cloud deployment on Azure. Going from *"it works on my machine"* to *"it works for someone else"* taught me more than most of my classes combined.
 
-I complement my formal education with self-directed learning through Platzi, going deeper into cloud, DevOps, and modern backend practices.
+I also spend a lot of time learning on my own through Platzi, mostly cloud, DevOps and now getting into AI. I'm the kind of person who's always digging a bit deeper into whatever I'm working on.
 
 ---
 
@@ -36,6 +36,8 @@ I complement my formal education with self-directed learning through Platzi, goi
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=for-the-badge&logo=railway&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![SonarCloud](https://img.shields.io/badge/SonarCloud-F3702A?style=for-the-badge&logo=sonarcloud&logoColor=white)
 
 **Testing & Quality**
@@ -48,28 +50,34 @@ I complement my formal education with self-directed learning through Platzi, goi
 
 ## 🚀 Featured Projects
 
-### [AIBERT](https://github.com/AI-BERT-BACKEND/dark-code-knights-academic-service) — Intelligent Academic Planning Platform
+### [AIBERT](https://github.com/AI-BERT-BACKEND/dark-code-knights-academic-service)
+*Intelligent academic planning platform, built as a real microservices system by a cross-functional student team.*
 
-> Real microservices platform built by a cross-functional student team. I owned the full lifecycle of the **Academic Management** service — from domain design to production deployment.
+I owned the full lifecycle of the **Academic Management** service, from domain design to production deployment.
 
 - **9 functional modules**: course management, grade registration, weighted GPA calculation, target-grade simulation, academic goals, weekly scheduling, and more
 - **22 documented REST endpoints** following OpenAPI/Swagger standards, coordinated across 6+ microservice teams
-- **Automated CI/CD pipeline**: Compile → Test → SonarCloud → Docker Build → Azure Deploy
-- **Production bugs solved**: Hibernate `LazyInitializationException`, Kafka env vars lost between Azure Container App revisions, PostgreSQL schema mismatches in QA, Azure health probe misconfiguration on custom port
-- **891 automated tests** · **80%+ code coverage** · Service running in production QA
+- **Automated CI/CD pipeline**: compile, test, SonarCloud analysis, Docker build, Azure deploy
+- **Production bugs I actually had to fix**: a Hibernate `LazyInitializationException`, Kafka env vars getting lost between Azure Container App revisions, PostgreSQL schema mismatches in QA, and a misconfigured Azure health probe on a custom port
+- **891 automated tests**, **80%+ code coverage**, running stable in production QA
 
 `Java 21` `Spring Boot 3.4.3` `PostgreSQL` `Apache Kafka` `Docker` `GitHub Actions` `Azure Container Apps` `Hexagonal Architecture` `JUnit 5` `SonarCloud`
 
 ---
 
-### [TechCup](https://github.com/Lanch3ros/techcup-futbol) — Soccer Tournament Management Platform
+### [TechCup Fútbol](https://github.com/Lanch3ros/techcup-futbol)
+*Platform that automates the semester soccer tournament at ECI: registration, team management, payment verification, match tracking and real-time stats.*
 
-> Centralized web platform that automates soccer tournament management: team registration, administration, and real-time statistics calculation.
+Technically a team project (shoutout to JavaBurguers), but I ended up owning most of it: backend, DevOps and a good part of the frontend integration. I'm the author of the vast majority of the commits.
 
-- Agile team collaboration using **Scrum + Jira** for sprint planning and delivery
-- Quality-first approach with unit testing and **JaCoCo** code coverage optimization
+- Layered architecture (Controller → Service → Repository) with **Factory Method** and **Strategy** patterns to handle 5 different player types and their email validation rules
+- Security stack: JWT + Google OAuth2, role-based access control, HTTPS end to end
+- React SPA on the frontend, talking to the API over JSON/HTTPS
+- **509 tests**, 100% instruction/line coverage with JaCoCo, **A rating across the board in SonarCloud**
+- Full CI/CD pipeline with GitHub Actions and Docker
+- Independently migrated the entire deployment stack from Azure to **Railway** (backend) and **Vercel** (frontend) once our student credits ran out
 
-`Java` `GitHub Actions` `Scrum` `JaCoCo`
+`Java 21` `Spring Boot` `PostgreSQL` `Docker` `GitHub Actions` `JWT/OAuth2` `React` `Railway` `Vercel`
 
 ---
 
@@ -84,5 +92,5 @@ I complement my formal education with self-directed learning through Platzi, goi
 ---
 
 <p align="center">
-  <i>Open to internships, freelance projects, and teams that care about building software users actually want to use.</i>
+  <i>Open to internships, freelance work, and teams that actually care about building software people want to use.</i>
 </p>
