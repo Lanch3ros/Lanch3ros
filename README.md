@@ -78,19 +78,5 @@ Technically a team project (shoutout to JavaBurguers), but I ended up owning mos
 - Independently migrated the entire deployment stack from Azure to **Railway** (backend) and **Vercel** (frontend) once our student credits ran out
 
 `Java 21` `Spring Boot` `PostgreSQL` `Docker` `GitHub Actions` `JWT/OAuth2` `React` `Railway` `Vercel`
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Lanch3ros&show_icons=true&theme=github_dark&hide_border=true&count_private=true" height="160"/>
-  &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Lanch3ros&layout=compact&theme=github_dark&hide_border=true" height="160"/>
-</p>
-
----
-
-<p align="center">
   <i>Open to internships, freelance work, and teams that actually care about building software people want to use.</i>
 </p>
